@@ -489,3 +489,53 @@ a{
     font-style: italic;
     line-height: 1.54;
 }
+
+/* ===== features ======= */
+.features{
+    margin-top: 135px;
+
+}
+
+.features .body{
+    display: flex;
+    justify-content: space-between
+}
+
+.features .imges{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.features .img img{
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .lower{
+    margin-top: 34px;
+}
+
+.features .content{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features .content .desc{
+    color: #5F5B53;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-top: 16px;
+}
+
+.features .content .btn{
+    width: 137px;
+    height: 50px;
+    margin-top: 32px;
+    background: var(--primary-color);
+    border: none;
+}
